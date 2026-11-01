@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "target_company": "Visa",
+    "target_role": "Software_Engineer",
+    "output_docx": "Yash_Gupta_Visa_Software_Engineer.docx",
+    "output_pdf": "Yash_Gupta_Visa_Software_Engineer.pdf",
+    "output_png": "docx_resume_render.png"
+  },
+  "styling": {
+    "font_family": "Noto Serif",
+    "body_font_size": 9.0,
+    "title_font_size": 21.0,
+    "section_heading_size": 11.5,
+    "role_title_size": 9.8,
+    "sub_heading_size": 9.2,
+    "contact_font_size": 8.8,
+    "margins": {
+      "top": 0.36,
+      "bottom": 0.36,
+      "left": 0.45,
+      "right": 0.45
+    },
+    "tab_stop_right": 7.6,
+    "bullet_spacing": {
+      "space_before": 0.0,
+      "space_after": 1.8,
+      "left_indent": 0.18,
+      "first_line_indent": -0.14
+    },
+    "section_spacing": {
+      "space_before": 5.5,
+      "space_after": 2.2
+    },
+    "role_spacing": {
+      "space_before": 3.5,
+      "space_after_title": 1.0,
+      "space_after_sub": 2.2
+    }
+  },
+  "contact": {
+    "candidate_name": "Yash Gupta",
+    "location": "New Delhi / NCR, India (Open to Relocate — Bengaluru / PAN-India)",
+    "phone": "+91 8287552253",
+    "email": "guptayash112003@gmail.com",
+    "linkedin_display": "linkedin.com/in/yash-gupta-engineer",
+    "linkedin_url": "https://www.linkedin.com/in/yash-gupta-engineer/",
+    "github_display": "github.com/Yash-Gupta-01",
+    "github_url": "https://github.com/Yash-Gupta-01"
+  },
+  "sections": [
+    {
+      "type": "experience",
+      "title": "Experience",
+      "roles": [
+        {
+          "title": "Associate Software Engineer",
+          "dates": "Oct 2025 – Present",
+          "company": "ISchoolConnect",
+          "location": "Noida, UP",
+          "bullets": [
+            "Engineered an enterprise commercial **GPA evaluation platform** (**Next.js BFF**, **NestJS**, **Slate CRM**) across **4+** university deployments, generating **$150K+** contract value per client and enforcing strict **FERPA compliance**.",
+            "Spearheaded the **Document Intelligence** engine coupling deterministic articulation rule caches with **Gemini API** fallback, resolving **40%+** of course mappings without LLM inference to cut token costs by **40%**.",
+            "Architected a decoupled two-tier **Go** ingestion pipeline on **Cloud Run** and **Google Cloud Pub/Sub**, processing **10K+ delta records per 15-minute sync cycle** into **MongoDB** with lease-fenced consumers to guarantee zero data loss.",
+            "Scaled real-time student evaluation throughput by **3.5x**, implementing clustered worker pools with **Redis BullMQ** to decouple async batch inference jobs from API request lifecycles, isolating parsing workloads and eliminating gateway timeouts.",
+            "Optimized relational reporting queries across **PostgreSQL** by analyzing **EXPLAIN** plans, indexing composite foreign keys, and structuring materialized views, dropping p95 query latency from **4.2s to 180ms** across multi-tenant schemas.",
+            "Containerized multi-stage microservices with **Docker** and automated regression test suites in **Jenkins**, cutting staging deployment cycle times from **45 to 12 minutes** while enforcing branch quality gates across Agile release sprints."
+          ]
+        },
+        {
+          "title": "Software Engineer Intern",
+          "dates": "Jan 2025 – Oct 2025",
+          "company": "ISchoolConnect",
+          "location": "Noida, UP",
+          "bullets": [
+            "Developed responsive web portals and student admission forms using **Angular 14**, **TypeScript**, and **Tailwind CSS**, eliminating DOM re-render bottlenecks to improve cross-device rendering performance by **35%** across mobile clients.",
+            "Established comprehensive integration test suites using **Jest** and **Supertest** across 120+ REST API endpoints with isolated mock fixtures, elevating code coverage from **58% to 84%** and eliminating staging regression bugs."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "education",
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Bachelor of Technology in Computer Science & Engineering",
+          "dates": "Nov 2021 – Jul 2025",
+          "institution": "Guru Gobind Singh Indraprastha University",
+          "location": "New Delhi, India",
+          "coursework": "Distributed Systems, Operating Systems, Computer Networks, Database Management Systems (DBMS), Object-Oriented Programming (OOP), and Data Structures & Algorithms."
+        }
+      ]
+    },
+    {
+      "type": "projects",
+      "title": "Projects",
+      "projects": [
+        {
+          "name": "Fluxpay",
+          "stack": "Go, Apache Kafka, PostgreSQL, Redis, Docker",
+          "link_text": "github.com/Yash-Gupta-01/-Fluxpay",
+          "link_url": "https://github.com/Yash-Gupta-01/-Fluxpay",
+          "bullets": [
+            "Constructed an event-driven payment ledger processing asynchronous transactions via **Apache Kafka** partitioned topics and **PostgreSQL**, maintaining double-entry ledger invariants and transaction balance audit trails.",
+            "Enforced exactly-once payment semantics using **Redis distributed locks** and idempotency keys, eliminating concurrent race conditions and preventing duplicate transaction processing during high-volume webhook bursts.",
+            "Benchmarked transaction throughput under peak loads of **1,200 RPS** using **k6**, validating zero data corruption, sub-20ms p95 processing latency, and reliable dead-letter queue recovery across microservices."
+          ]
+        },
+        {
+          "name": "AI Interviewer",
+          "stack": "Next.js, Node.js, WebSockets, Gemini API, Docker",
+          "link_text": "github.com/Yash-Gupta-01/AI-interviewer",
+          "link_url": "https://github.com/Yash-Gupta-01/AI-interviewer",
+          "bullets": [
+            "Built an autonomous technical screening agent utilizing **Google Gemini API**, **Next.js**, and **WebSockets**, conducting structured 30-minute interactive coding assessments with automated candidate voice transcription.",
+            "Implemented secure sandbox environments and structured evaluation rubrics, parsing candidate code submissions to score runtime algorithmic complexity, edge-case coverage, and unit test pass rates in real-time."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "technical_skills",
+      "title": "Technical Skills",
+      "categories": [
+        {
+          "label": "Languages",
+          "items": "Go (Golang), TypeScript, JavaScript, Python, SQL, C++"
+        },
+        {
+          "label": "Backend & Distributed",
+          "items": "Node.js, NestJS, Express.js, REST APIs, Microservices, Apache Kafka, Google Cloud Pub/Sub, Redis BullMQ"
+        },
+        {
+          "label": "Databases & Storage",
+          "items": "PostgreSQL, MySQL, MongoDB, Redis (Caching & Distributed Locking)"
+        },
+        {
+          "label": "Cloud & DevOps",
+          "items": "Docker, Google Cloud Run, GCP, Jenkins, CI/CD Pipelines, Linux/Bash, Kubernetes (familiar)"
+        },
+        {
+          "label": "Testing & Quality",
+          "items": "Jest, Supertest, Postman, k6 Load Testing, Unit & Integration Testing"
+        },
+        {
+          "label": "Frontend",
+          "items": "Next.js, React, Angular 14, HTML5/CSS3, Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "type": "achievements",
+      "title": "Achievements",
+      "bullets": [
+        "Won First Place (Rs. 50,000 award) among 30+ engineering teams at the **ISchoolConnect Internal AI Hackathon**, architecting an automated voice screening platform powered by real-time WebSockets and LLM evaluation.",
+        "Secured First Position in **HackBPIT** (HashDefine, BPIT) and First Runner-Up in **CodeGeeks Hackathon** (DTU, 2023), recognized among 100+ teams for architecting scalable, event-driven distributed system solutions.",
+        "Solved **450+** Data Structures & Algorithms problems across LeetCode, GeeksforGeeks, Codeforces, and CodeChef, demonstrating deep mastery in graph algorithms, computational complexity, and dynamic programming."
+      ]
+    }
+  ]
+}
